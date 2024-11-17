@@ -30,7 +30,7 @@ int main() {
     scanf("%d", &codigo);
 
     printf("Digite o nome da cidade: ");
-    fgets("%s", nome); // Ao pesquisar sobre a entrada scanf descobir que só é possivel inserir uma palv. então optei por utilizar "fgets" pois dai é possivel inserir um espaço.
+    scanf("%s", nome); 
 
     printf("Digite a população da cidade: ");
     scanf("%d", &populacao);
